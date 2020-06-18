@@ -4,6 +4,6 @@ RUN mkdir /root/.postgresql/
 
 COPY root.crt /root/.postgresql/
 
-COPY --from=builder /app/target/pearlchaindbm.jar /
+COPY --from=builder /target/pearlchaindbm.jar /
 
 ENTRYPOINT ["java","-jar", "pearlchaindbm.jar" ]
