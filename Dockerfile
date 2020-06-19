@@ -9,7 +9,7 @@ RUN mvn -N io.takari:maven:wrapper -Dmaven=3.5.0
 
 COPY . /app
 RUN ./mvnw install
-
+#Env Variables
 ARG bx_dev_user=root
 ARG bx_dev_userid=1000
 RUN BX_DEV_USER=$bx_dev_user
