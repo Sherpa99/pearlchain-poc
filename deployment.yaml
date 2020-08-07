@@ -35,7 +35,7 @@ spec:
         - name: BINDING
           valueFrom:
             secretKeyRef:
-              name: binding-storm-tracker-postgresql-db
+              name: binding-gs-pearlchain-pocdb
               key: binding
       dnsPolicy: ClusterFirst
       restartPolicy: Always
