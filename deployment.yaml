@@ -24,7 +24,7 @@ spec:
         run: pearlchain-poc
     spec:
       containers:
-      - image: us.icr.io/gs_dev_ns/pearlchaindbm:v1.1
+      - image: IMAGE
         imagePullPolicy: Always
         name: pearlchain-poc
         resources: {}
