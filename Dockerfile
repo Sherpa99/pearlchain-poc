@@ -1,5 +1,5 @@
 FROM adoptopenjdk/openjdk8-openj9:alpine-slim
-
+#Installs curl
 RUN apk add --update \
     curl \
     && rm -rf /var/cache/apk/*
