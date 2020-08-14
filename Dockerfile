@@ -6,7 +6,7 @@ RUN apk add --update \
 
 RUN mkdir /root/.postgresql/
 
-COPY https://github.com/Sherpa99/pearlchain-poc/blob/master/src/main/resources/root.crt /root/.postgresql/
+CURL https://github.com/Sherpa99/pearlchain-poc/blob/master/src/main/resources/root.crt /root/.postgresql/
 
 COPY target/pearlchaindbm.jar /
 
