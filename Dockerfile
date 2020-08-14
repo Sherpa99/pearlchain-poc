@@ -10,8 +10,6 @@ RUN cd /root/.postgresql/
 
 RUN curl https://github.com/Sherpa99/pearlchain-poc/blob/master/src/main/resources/root.crt
 
-RUN mkdir /app
-
 WORKDIR /app
 
 RUN curl  https://github.com/Sherpa99/pearlchain-poc/blob/master/src/main/resources/pearlchaindbm.jar
