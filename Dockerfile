@@ -4,6 +4,7 @@ RUN apk add --update \
     curl \
     && rm -rf /var/cache/apk/*
 
+#Postgress root directory to store the certs
 RUN mkdir /root/.postgresql/
 
 RUN cd /root/.postgresql/
