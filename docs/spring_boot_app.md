@@ -1,7 +1,7 @@
 # Spring Boot Application Using Postgres
 
 ## Applicaiton workflow
-![Screenshot](/docs/images/spring_boot_app.png)
+![Screenshot](/docs/images/springboot_app.png)
 ### Spring_Boot Base RESTApi build based on lasted feature as mentioned
 * SpringBoot Version : 2.3.0.RELEASE
 * Java Version: 1.8
