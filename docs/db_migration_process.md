@@ -1,7 +1,7 @@
 # MSSQL to PGSQL Migration
 
 ## Database Migration Workflow
-![Screenshot]((https://github.com/Sherpa99/pearlchain-poc/blob/master/docs/images/%20database_migration.png)
+![Screenshot](https://github.com/Sherpa99/pearlchain-poc/blob/master/docs/images/%20database_migration.png)
 ### Pre-requisites
 * 1) Must have Access to OpenShift Cluster and IBMCloud
 * 2) Download IBMCloud and OpenShift CLI to execute commands from commandline
