@@ -3,9 +3,8 @@
 ## Database Migration Workflow
 ![Screenshot](https://github.com/Sherpa99/pearlchain-poc/blob/master/docs/images/%20database_migration.png)
 ### Pre-requisites
-* 1) Must have Access to OpenShift Cluster and IBMCloud
-* 2) Download IBMCloud and OpenShift CLI to execute commands from commandline
-
+*	1.	Access Requirements: Ensure you have access to both an OpenShift Cluster and an IBM Cloud account.
+*	2.	CLI Tools Installation: Download and install the IBM Cloud CLI and OpenShift CLI to execute commands from the command line.
 * **Perform following steps on MSSQL container**
 
 1) Install DbVisualizer 
